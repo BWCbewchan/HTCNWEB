@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    header {
+        text-align: center;
+
+        height: 30px;
+        border: 1px solid white;
+    }
+    section {
+        height: 30px;
+        border: 1px solid white;
+        height: 200px;
+        
+    }
+    footer {
+        text-align: center;
+        justify-content: center;
+        height: 30px;
+        border: 1px solid white;
+    }
+    #layout {
+        width: 800px;
+    }
+
+    .layout1 {
+        background-color: #f7c9ac;
+    }
+    .layout2 {
+        background-color: #C9FFD2;
+    }
+    .layout3 {
+        background-color: #FFF696;
+    }
+    .layout4 {
+        background-color: #989DFF;
+    }
+    .layout5 {
+        background-color: #51EB79;
+    }
+    .about{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav, aside {
+        height: 30px;
+        border: 1px solid white;
+        width: 20%;
+        height: 200px;
+    }
+    article{
+        height: 100px;
+        margin: 10px;
+        width: 95%;
+        border: 1px solid white;
+    }
+</style>
+<body>
+    <!-- layout1 -->
+    <div>
+        <h2>layout 1</h2>
+        <div id="layout" class="layout1">
+            <header>header</header>
+            <section>section</section>
+            <footer>footer</footer>
+        </div>
+    </div>
+    <!-- layout2 -->
+    <div>
+        <h2>layout 2</h2>
+        <div id="layout" class="layout2">
+            <header>header</header>
+            <div class="about">
+                <nav>nav</nav>
+                <section style="width: 60%;">section</section>
+                <aside>aside</aside>
+            </div>
+        <footer>footer</footer>
+        </div>
+    </div>
+    <!-- layout3 -->
+    <div>
+        <h2>layout 3</h2>
+        <div id="layout" class="layout3">
+            <header>header</header>
+            <nav style="height: 20px";>nav</nav>
+            <div class="about">
+                <nav >nav</nav>
+                <section style="width: 60%;">section</section>
+                <aside>aside</aside>
+            </div>
+        <footer>footer</footer>
+        </div>
+    </div>
+    <!-- layout4 -->
+    <div>
+        <h2>layout 4</h2>
+        <div id="layout" class="layout4">
+            <header>header</header>
+            <div class="about">
+                <nav >nav</nav>
+                <section style="width: 80%; ">
+                    <article style="background-color: #f7c9ac; padding: auto; height: 90%;">article</article>
+                </section>
+            </div>
+        <footer>footer</footer>
+        </div>
+    </div>
+    <!-- layout5 -->
+    <div>
+        <h2>layout 5</h2>
+        <div id="layout" class="layout5">
+            <header>header</header>
+            <nav style="height: 20px ;width: 100%";>nav</nav>
+            <div class="about">
+                <section style="width: 100%; ">
+                    <article style="background-color: #f7c9ac; padding: auto; height: 90%;">article</article>
+                </section>
+            </div>
+        <footer>footer</footer>
+        </div>
+    </div>
+    <!-- layout6 -->
+    <div>
+        <h2>layout 6</h2>
+        <div id="layout" class="layout2">
+            <header>header</header>
+            <nav style="height: 20px ;width: 100% ";>nav</nav>
+            <div class="about">
+                <section style="width: 80%; height: 250px">section
+                    <article>article</article>
+                    <article >article</article>
+                </section>
+                <aside style="height: 250px">aside</aside>
+            </div>
+        <footer>footer</footer>
+        </div>
+    </div>
+</body>
+</html>
